@@ -1,44 +1,43 @@
-let height = document.querySelector('.container .height input');
-let weight = document.querySelector('.container .weight input');
-let calculation = document.querySelector('container .calculate');
+let height = document.querySelector('.container .height-input');
+let weight = document.querySelector('.container .weight-input');
+let calculate = document.querySelector('.container .calculate');
 let bmiText = document.querySelector('.container .result-box .bmi h3');
 let result = document.querySelector('.container .result-box');
-let health_status = document.querySelector('.container .result-box .result');
+let healthStatus = document.querySelector('.container .result-box .result');
 
-// let 
+calculate.addEventListener('click', () => {
+  if (height.value != '' && weight.value != '') {
+      calculateBmi(); 
+     }
+  });
 
-calculation.addEventListener('click', () => {
-  if(height.value != '' && weight.value != '') {
-    calculateBmi();
-   }
-  })
+  let calculateBmi = () => {
+    let weightValue = weight.value; 
+    let heightValue = height.value; 
 
+    let bmi = (weightValue / Math.pow((heightValue / 100), 2)).toFixed(1);
 
-let calculateBmi = () => {
-  let weightvalue = weight.value; 
-  let heightvalue = height.value;
+    if (bmi < 18.5) {
+      healthStatus.innerHTML = 'Underweight';
+      healthStatus.style.color = 'orange';
+    }
 
-  let bmi = (weightvalue / Math.pow((heightvalue / 100), 2)).toFixed(1);
+    else if(bmi >= 18.5 && bmi <= 24.9) {
+      healthStatus.innerHTML = 'Regular/Normal weight'; 
+      healthStatus.style.color = "Green";
+    }
 
-  if (bmi < 18.5) {
-    health_status.innerHTML = 'Underweight'; 
-    health_status.style.color= 'red';
+    else if (bmi >= 25 && bmi <= 29.9) {
+      healthStatus.innerHTML = 'Obesitas';
+      healthStatus.style.color = 'green';
+    }
+
+    else {
+      healthStatus.innerHTML = "You're in the obese range";
+      healthStatus.style.color = 'red';
+    }
+
+    bmiText.innerHTML = bmi; 
+    result.style.display = 'block';
+
   }
-
-  else if (bmi >= 18.5 && bmi <= 24.9) {
-    health_status.innerHTML = 'Normal, regular weight';
-    health_status.style.color = 'green';
-  }
-
-  else if (bmi >= 25 && bmi <= 29.9)  {
-    health_status.innerHTML = 'Obese'
-    health_status.style.color = 'hotpink';
-  }
-
-  bmiText.innerHTML = bmi; 
-  result.style.display = 'block';
-
-}
-
-
-                             
