@@ -8,10 +8,9 @@ let health_status = document.querySelector('.container .result-box .result');
 // let 
 
 calculation.addEventListener('click', () => {
-  if(height.value != '' && weight.value != '') }
+  if(height.value != '' && weight.value != '') 
     calculateBmi();
   })
-}
 
 
 let calculateBmi = () => {
