@@ -14,8 +14,8 @@ calculation.addEventListener('click', () => {
 }
 
 
-let calculateBt = () => {
-  let weightvalute = weight.value; 
+let calculateBmi = () => {
+  let weightvalue = weight.value; 
   let heightvalue = height.value;
 
   let bmi = (weightvalue / Math.Pow(heightvalue / 100), 2)).toFixed(1);
@@ -25,7 +25,18 @@ let calculateBt = () => {
     health_status.style.color= 'red';
   }
 
-  else if 
+  else if (bmi >= 18.5 && bmi <= 24.9) {
+    health_status.innerHTML = 'Normal, regular weight';
+    health-status.style.color = 'green';
+  }
+
+  else if (bmi >= 25 && bmi <= 29.9)  {
+    health_status.innerHTML = 'Obese'
+    health_status.style.color = 'hotpink';
+  }
+
+  bmiText.innerHTML = bmi; 
+  result.style.display = 'block';
 
 }
 
