@@ -28,7 +28,7 @@ calculate.addEventListener('click', () => {
     }
 
     else if (bmi >= 25 && bmi <= 29.9) {
-      healthStatus.innerHTML = 'Obesitas';
+      healthStatus.innerHTML = "You\'re overweight";
       healthStatus.style.color = 'green';
     }
 
