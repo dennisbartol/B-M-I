@@ -18,7 +18,7 @@ let calculateBmi = () => {
   let weightvalue = weight.value; 
   let heightvalue = height.value;
 
-  let bmi = (weightvalue / Math.Pow(heightvalue / 100), 2)).toFixed(1);
+  let bmi = (weightvalue / Math.Pow((heightvalue / 100), 2)).toFixed(1);
 
   if (bmi < 18.5) {
     health_status.innerHTML = 'Underweight'; 
