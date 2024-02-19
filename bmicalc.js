@@ -27,7 +27,7 @@ let calculateBmi = () => {
 
   else if (bmi >= 18.5 && bmi <= 24.9) {
     health_status.innerHTML = 'Normal, regular weight';
-    health-status.style.color = 'green';
+    health_status.style.color = 'green';
   }
 
   else if (bmi >= 25 && bmi <= 29.9)  {
