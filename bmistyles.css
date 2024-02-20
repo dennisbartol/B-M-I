@@ -11,3 +11,11 @@ font-family: "Noto Sans", sans-serif;
 background: hotpink;
 color: ghostwhite;
 }
+
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
