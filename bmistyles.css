@@ -36,4 +36,6 @@ body {
 
 button { 
   margin-top: 4px; 
+  padding: 4px; 
+  outline: none; 
 }
