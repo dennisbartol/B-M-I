@@ -6,14 +6,20 @@ let result = document.querySelector('.container .result-box');
 let healthStatus = document.querySelector('.container .result-box .result');
 
 calculate.addEventListener('click', () => {
-  if (height.value != '' && weight.value != '') {
+  if (height.value !== '' && weight.value !== '') {
+    let parsedHeight = parseFloat(height.value);
+    if (parsedHeight <= 250) {
       if (parseFloat(weight.value) <= 600) {
-      calculateBmi();
+        calculateBmi();
       } else {
-      alert("The maximum weight is set at 600 kg.");
-        } 
-     }
-  });
+        alert("Maximum weight allowed is 600 kg.");
+      }
+    } else {
+      alert("Maximum height allowed is 250 cm.");
+    }
+  }
+});
+
 
   let calculateBmi = () => {
     let weightValue = weight.value; 
