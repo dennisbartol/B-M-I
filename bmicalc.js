@@ -7,7 +7,11 @@ let healthStatus = document.querySelector('.container .result-box .result');
 
 calculate.addEventListener('click', () => {
   if (height.value != '' && weight.value != '') {
-      calculateBmi(); 
+      if (parseFloat(weight.value) <= 600) {
+      calculateBmi();
+      } else {
+      alert("The maximum weight is set at 600 kg.");
+        } 
      }
   });
 
