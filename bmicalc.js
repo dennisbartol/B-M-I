@@ -18,7 +18,7 @@ calculate.addEventListener('click', () => {
     let bmi = (weightValue / Math.pow((heightValue / 100), 2)).toFixed(1);
 
     if (bmi < 18.5) {
-      healthStatus.innerHTML = 'Underweight';
+      healthStatus.innerHTML = 'You\'re underweight';
       healthStatus.style.color = 'orange';
     }
 
