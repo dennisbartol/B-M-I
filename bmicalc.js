@@ -23,7 +23,7 @@ calculate.addEventListener('click', () => {
     }
 
     else if(bmi >= 18.5 && bmi <= 24.9) {
-      healthStatus.innerHTML = '✔️ Congratulations ! You're on a regular and healthy weight'; 
+      healthStatus.innerHTML = 'Congratulations ! You're on a regular and healthy weight'; 
       healthStatus.style.color = "Green";
     }
 
@@ -33,7 +33,7 @@ calculate.addEventListener('click', () => {
     }
 
     else {
-      healthStatus.innerHTML = "❗ You're in the obese range";
+      healthStatus.innerHTML = "You're in the obese range";
       healthStatus.style.color = 'red';
     }
 
