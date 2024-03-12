@@ -33,7 +33,7 @@ calculate.addEventListener('click', () => {
     }
 
     else {
-      healthStatus.innerHTML = "You're in the obese range";
+      healthStatus.innerHTML = "You're in the obesitas range";
       healthStatus.style.color = 'red';
     }
 
