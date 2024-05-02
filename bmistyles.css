@@ -52,7 +52,7 @@ body {
   justify-content: center;
   height: 45px; 
   width: 60%; 
-  color:  #010101; /* ghostwhite; */
+  color: ghostwhite; 
   background-color: #010101;
   /* background: #93309e; */
   border-radius: 6px;
