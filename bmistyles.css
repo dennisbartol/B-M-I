@@ -33,6 +33,41 @@ body {
   height: 500px;
 }
 
+
+.container .box input { 
+  all: unset; 
+  width: 200px; 
+  height: 40px;
+  border-bottom: 1px solid blue;
+  position: absolute; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.container .calculate {
+  all: unset; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px; 
+  width: 100%; 
+  color: ghostwhite;
+  background: #93309e;
+  border-radius: 6px;
+  margin-top: 40px;
+
+}
+
+
+button { 
+  margin-top: 4px; 
+  padding: 4px; 
+  outline: none; 
+}
+
+
+
 .container .result-box .bmi {
    padding-left: 10px; 
    padding-right: 10px; 
@@ -49,21 +84,4 @@ body {
 .container .result-box .yr-bmi-txt {
   text-align:center;
   margin-top:17px; 
-}
-
-.container .result-box .bmi input[type="number"] {
-  line-height: 50px; 
-  height: 50px; 
-  width: 120px;
-  text-align: center;
-  margin: 0; 
-  padding: 0; 
-  margin-top: 5px;
-}
-
-
-button { 
-  margin-top: 4px; 
-  padding: 4px; 
-  outline: none; 
 }
