@@ -6,10 +6,14 @@ let result = document.querySelector('.container .result-box');
 let healthStatus = document.querySelector('.container .result-box .result');
 
 calculate.addEventListener('click', () => {
-  if (height.value != '' && weight.value != '') {
-      calculateBmi(); 
-     }
-  });
+  if (height.value !== '' && weight.value !== '') {
+    if (parseFloat(height.value) > 0 && parseFloat(weight.value) > 0) {
+      calculateBmi();
+    } else {
+      alert('Please enter valid positive values for height and weight.');
+    }
+  }
+});
 
   let calculateBmi = () => {
     let weightValue = weight.value; 
