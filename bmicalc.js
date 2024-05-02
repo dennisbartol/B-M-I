@@ -10,7 +10,7 @@ calculate.addEventListener('click', () => {
     if (parseFloat(height.value) > 0 && parseFloat(weight.value) > 0) {
       calculateBmi();
     } else {
-      alert('Please enter valid positive values for height and weight.');
+      window.alert('For height and weight - Please enter positive values only.');
     }
   }
 });
