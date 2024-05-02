@@ -51,9 +51,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 45px; 
-  width: 100%; 
-  color: ghostwhite;
-  background: #93309e;
+  width: 60%; 
+  color:  e3e3d3; /* ghostwhite; */
+  background-color: #f9f9f9;
+  /* background: #93309e; */
   border-radius: 6px;
   margin-top: 40px;
 
@@ -64,8 +65,7 @@ button {
   margin-top: 4px; 
   padding: 4px; 
   outline: none; 
-  width: 250px; 
-  background-color: #f9f9f9;
+  
 }
 
 
