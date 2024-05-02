@@ -51,15 +51,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 45px; 
-  width: 60%; 
+  width: 54%; 
   color: ghostwhite; 
   background-color: #010101;
   /* background: #93309e; */
   border-radius: 6px;
   margin-top: 40px;
-
 }
-
 
 button { 
   margin-top: 4px; 
@@ -67,7 +65,6 @@ button {
   outline: none; 
   
 }
-
 
 
 .container .result-box .bmi {
