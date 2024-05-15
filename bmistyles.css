@@ -51,6 +51,17 @@ body {
   color: #010101;
   box-shadow: 6px 6px 0 0 #010101;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 }
 
 .container .calculate {
