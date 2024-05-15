@@ -1,4 +1,4 @@
-let height = document.querySelector('.container .height-input');
+let height = document.querySelector('.container .height-input'); 
 let weight = document.querySelector('.container .weight-input');
 let calculate = document.querySelector('.container .calculate');
 let bmiText = document.querySelector('.container .result-box .bmi h3');
