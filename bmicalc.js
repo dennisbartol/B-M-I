@@ -1,4 +1,4 @@
-let height = document.querySelector('.container .height-input');
+let height = document.querySelector('.container .height-input'); 
 let weight = document.querySelector('.container .weight-input');
 let calculate = document.querySelector('.container .calculate');
 let bmiText = document.querySelector('.container .result-box .bmi h3');
@@ -6,10 +6,14 @@ let result = document.querySelector('.container .result-box');
 let healthStatus = document.querySelector('.container .result-box .result');
 
 calculate.addEventListener('click', () => {
-  if (height.value != '' && weight.value != '') {
-      calculateBmi(); 
-     }
-  });
+  if (height.value !== '' && weight.value !== '') {
+    if (parseFloat(height.value) > 0 && parseFloat(weight.value) > 0) {
+      calculateBmi();
+    } else {
+      window.alert('For height and weight - Please enter positive values only.');
+    }
+  }
+});
 
   let calculateBmi = () => {
     let weightValue = weight.value; 
