@@ -42,6 +42,10 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+
+  background-color: ghostwhite;
+  color: #010101;
+  box-shadow: 6px 6px 0 0 #010101;
 }
 
 input[type=number]::-webkit-inner-spin-button,
