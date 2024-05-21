@@ -46,6 +46,7 @@ body {
   background-color: ghostwhite;
   color: #010101;
   box-shadow: 6px 6px 0 0 #010101;
+  border-radius: 6px; 
 }
 
 input[type=number]::-webkit-inner-spin-button,
