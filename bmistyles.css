@@ -21,6 +21,9 @@ body {
   left: 50%; 
   transform: translate(-50%,-50%);
   */
+  
+  /* + Waar is de calcalute button gebleven */
+  
   display: flex; 
   flex-direction: column;
   align-items: center; 
