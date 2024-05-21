@@ -47,7 +47,14 @@ body {
   color: #010101;
   box-shadow: 6px 6px 0 0 #010101;
   border-radius: 6px; 
+  transition: box-shadow 0.4s ease-in-out;
 }
+
+.container .calculate:hover {
+  box-shadow: 6px 6px 0 0 ghostwhite;
+  transition: 0.4s ease-in-out;
+}
+
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
