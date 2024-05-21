@@ -69,6 +69,7 @@ input[type=number] {
 
 .container .calculate {
   all: unset; 
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
