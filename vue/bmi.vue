@@ -15,8 +15,8 @@
         weight: null,
         bmi: null, 
         
-
-      }
+      };
+    },
 
 
 
