@@ -13,7 +13,7 @@
 
          <button @click="calculateBMI">« Calculate BMI »</button>
 
-       <div class="result-box">
+       <div class="result-box" v-if="bmi || result">
          <p class="yr-bmi-txt"><b>Your BMI is :</b></p> 
          <div class="bmi">
            <h3>{{ bmi }}</h3>     
