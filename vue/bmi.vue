@@ -20,6 +20,8 @@
     methods: {
       if (this.height && this.weight) {
         const heightInMeters = this.height / 100; 
+        this.bmi = (this.weight / (heightInMeters ** 2)).toFixed(2); 
+        this.resultText = this.getBMIResultTest(this.bmi); 
       }
 
     }
