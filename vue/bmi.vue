@@ -10,6 +10,8 @@
           <h4>Weight (In kilograms)</h4>  
           <input type="number" v-model.number = "weight" class="weight-input" />
         </div>
+
+         <button @click="calculateBMI">« Calculate BMI »</button>
     
   </div>
   
