@@ -28,7 +28,12 @@
           this.resultText = "For height and weight - Please enter positive values only.";
         }
     },
-
+      gemBMIresult(bmi) {
+        if (bmi < 18.5) {
+          return "You\'re underweight"; 
+        } else if (bmi >= 18.5 && bmi < 24.9) {
+          return "You have a normal weight"; 
+        }
 
 
     }
