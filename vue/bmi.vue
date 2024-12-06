@@ -17,6 +17,12 @@
         
       };
     },
+    methods: {
+      if (this.height && this.weight) {
+        const heightInMeters = this.height / 100; 
+      }
+
+    }
 
 
 
