@@ -14,10 +14,9 @@
          <button @click="calculateBMI">« Calculate BMI »</button>
     
   </div>
-  
-
-  
 </template>
+
+
 
 <script>
   export default { 
