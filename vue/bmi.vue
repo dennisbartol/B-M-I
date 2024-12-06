@@ -78,7 +78,6 @@ body {
   justify-content: center; 
   font-family: "Noto Sans", sans-serif;
   color: ghostwhite;
-
   background-image: linear-gradient(to bottom right, #ff6869, #ff69de);
 }
 
