@@ -16,9 +16,11 @@
        <div class="result-box">
          <p class="yr-bmi-txt"><b>Your BMI is :</b></p> 
          <div class="bmi">
-           <h3></h3>     
+           <h3>{{ bmi }}</h3>     
          </div>
-        <p class="result"> <span></span></p>
+        <p class="result"> <span>{{ result }}
+        </span>
+        </p>
     </div>
   </div>
 </template>
