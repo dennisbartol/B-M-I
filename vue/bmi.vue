@@ -3,7 +3,7 @@
     <h2 class="app-title">BMI Calculator</h2>  
        <div class="height box">
           <h4>Height (In centimeters)</h4>
-          <input type="number" v-model.number="height" class="height-input">
+          <input type="number" v-model.number="height" class="height-input" />
         </div>
 
     
