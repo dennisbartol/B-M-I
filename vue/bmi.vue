@@ -42,7 +42,7 @@
       if (this.height && this.weight) {
         const heightInMeters = this.height / 100; 
         this.bmi = (this.weight / (heightInMeters ** 2)).toFixed(2); 
-        this.resultText = this.getBMIResult(this.bmi); 
+        this.resultText = this.getBMIresult(this.bmi); 
       } else { 
           this.bmi = null; 
           this.resultText = "For height and weight - Please enter positive values only.";
