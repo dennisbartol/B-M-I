@@ -26,8 +26,7 @@
           this.bmi = null; 
           this.resultText = "For height and weight - Please enter positive values only."
         }
-
-    }
+    },
 
 
 
