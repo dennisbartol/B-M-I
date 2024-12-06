@@ -175,7 +175,7 @@ button {
    align-items: center;
    justify-content: center;
    margin: auto; 
-   width: 120px; 
+   width: 100%; /* 120px; */
    margin-top: 5px; 
    
 }
