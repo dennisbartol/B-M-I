@@ -12,7 +12,14 @@
         </div>
 
          <button @click="calculateBMI">« Calculate BMI »</button>
-    
+
+       <div class="result-box">
+         <p class="yr-bmi-txt"><b>Your BMI is :</b></p> 
+         <div class="bmi">
+           <h3></h3>     
+         </div>
+        <p class="result"> <span></span></p>
+    </div>
   </div>
 </template>
 
