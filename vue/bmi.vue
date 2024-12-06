@@ -161,7 +161,7 @@ input[type=number] {
 
 button { 
   margin-top: 4px; 
-  padding: 4px; 
+  padding: 40px;  /* Vert. positioning */
   outline: none; 
   
 }
