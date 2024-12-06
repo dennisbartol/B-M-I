@@ -14,7 +14,7 @@
         height: null,
         weight: null,
         bmi: null, 
-        
+        result: "";
       };
     },
     methods: {
