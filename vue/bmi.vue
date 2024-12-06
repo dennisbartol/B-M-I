@@ -11,7 +11,7 @@
           <input type="number" v-model.number = "weight" class="weight-input" />
         </div>
 
-         <button @click="calculateBMI">« Calculate BMI »</button>
+         <button @click="calculateBMI" class="calculate">« Calculate BMI »</button>
 
        <div class="result-box" v-if="bmi || result">
          <p class="yr-bmi-txt"><b>Your BMI is :</b></p> 
