@@ -5,7 +5,11 @@
           <h4>Height (In centimeters)</h4>
           <input type="number" v-model.number="height" class="height-input" />
         </div>
-
+         
+        <div class="weight box">
+          <h4>Weight (In kilograms)</h4>  
+          <input type="number" v-model.number = "weight" class="weight-input" />
+        </div>
     
   </div>
   
