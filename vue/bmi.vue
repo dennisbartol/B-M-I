@@ -33,6 +33,10 @@
           return "You\'re underweight"; 
         } else if (bmi >= 18.5 && bmi < 24.9) {
           return "You have on a regular and healthy weight"; 
+        } else if (bmi >= 25 && bmi < 29.9) {
+          return "You\'re overweight"; 
+        } else { 
+          return "You\'re in the obesitas range";
         }
 
 
