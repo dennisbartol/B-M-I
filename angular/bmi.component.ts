@@ -12,4 +12,9 @@ export class BmiCalculatorComponent {
   bmi: 
   result: string = ''; 
 
+
+  calculateBMI(): void{ 
+    
+
+  }
 }
