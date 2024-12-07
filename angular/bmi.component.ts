@@ -6,4 +6,10 @@ import { Component } from '@angular-core';
   styleUrls: [bmi.component.css]
 })
 
-export class BmiCalculatorComponent
+export class BmiCalculatorComponent {
+  height: 
+  weight: 
+  bmi: 
+  result: string = ''; 
+
+}
