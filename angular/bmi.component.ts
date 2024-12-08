@@ -7,9 +7,9 @@ import { Component } from '@angular-core';
 })
 
 export class BmiCalculatorComponent {
-  height: 
-  weight: 
-  bmi: 
+  height: number
+  weight: number
+  bmi: number
   result: string = ''; 
 
 
