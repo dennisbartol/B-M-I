@@ -8,4 +8,6 @@
       <input type="number" [(ngModel)]="weight" class="weight-input" />
     </div>
     <button (click)="calculateBMI()" class="calculate">« Calculate BMI »</button>
+      <div class="result-box" *ngIF="bmi !== null" resultText">
+        <p class="yr-bmi-txt"><b>Your BMI is:</b></p>
 </div>
