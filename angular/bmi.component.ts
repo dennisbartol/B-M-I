@@ -14,7 +14,8 @@ export class BmiCalculatorComponent {
 
 
   calculateBMI(): void{ 
-    
-
+      if(this.height && this.weight) {
+        
+      }
   }
 }
