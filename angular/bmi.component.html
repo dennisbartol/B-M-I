@@ -10,4 +10,11 @@
     <button (click)="calculateBMI()" class="calculate">« Calculate BMI »</button>
       <div class="result-box" *ngIF="bmi !== null" resultText">
         <p class="yr-bmi-txt"><b>Your BMI is:</b></p>
+          <div class="bmi">
+            <h3>{{ bmi }}</h3>
+          </div>
+        <p class="result">
+          <span>{{ resultText }}</span>
+        </p>
+    </div>
 </div>
