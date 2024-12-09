@@ -34,4 +34,5 @@ export class BmiCalculatorComponent {
       } else {
         return 'Obesity range';
       }
+    }
   }
