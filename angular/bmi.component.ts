@@ -16,7 +16,7 @@ export class BmiCalculatorComponent {
   calculateBMI(): void{ 
       if(this.height && this.weight) {
         const heightInMeters = this.height / 100; 
-        this.bmi = 
+        this.bmi = parseFloat((this.weight / (heightInMeters ** 2)).
       }
   }
 }
