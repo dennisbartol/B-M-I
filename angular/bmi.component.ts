@@ -23,3 +23,13 @@ export class BmiCalculatorComponent {
         this.resultText = 'Please fill in a valid height and weight';
     }
   }
+
+  getBMIResulstText(bmi: number): string { 
+      if (bmi < 18.5) {
+        return 'You\'re underweight'; 
+      } else if (bmi >= 18.5 && < 24.9) {
+        return 'You\'re on a regular and normal weight'; 
+      }
+
+
+  }
