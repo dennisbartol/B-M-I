@@ -29,7 +29,9 @@ export class BmiCalculatorComponent {
         return 'You\'re underweight'; 
       } else if (bmi >= 18.5 && < 24.9) {
         return 'You\'re on a regular and normal weight'; 
+      } else if (bmi >= 25 && bmi < 29.9) {
+        return 'You\'re overweight'; 
+      } else {
+        return 'Obesity range';
       }
-
-
   }
