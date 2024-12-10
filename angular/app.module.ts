@@ -8,8 +8,8 @@ import {  } ;
 
 
 imports: [ BrowserModule, FormsModule],
-providers: []; 
-bootstrap: [AppComponent]
+providers: [],
+bootstrap: [AppComponent];
 })
 
 export class AppModule { }
