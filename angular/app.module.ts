@@ -1,2 +1,2 @@
 import { NgModule } from '@angular/core'; 
-import { BrowserModule } fomr '@angular/platsform-browser';
+import { BrowserModule } fomr '@angular/platform-browser';
