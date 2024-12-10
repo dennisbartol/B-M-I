@@ -10,3 +10,5 @@ import {  } ;
 
 
 )
+
+export class AppModule { }
