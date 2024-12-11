@@ -19,7 +19,13 @@ const BMICalculator = () => {
             if(calculatedBMI < 18.5 {
                 setHealthStatus("You're underweight");
                 setHealthStatusColor('orange');
+            } else if (calculatedBMI >= 18.5 && calculatedBMI <= 29.9) {
+                setHealthStatus("Congratulations! You're on a regular and healthy weight");
+            } else if (calculatedBMI >= 25 && calculatedBMI <= 29.9) {
+                setHealthStatus("You're overweight");
+                setHealthStatusColor('orange');
             }
+            
             
     }
 }
