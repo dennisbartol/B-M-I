@@ -5,8 +5,10 @@ import { AppComponent } from './app.component';
 import { BmiCalculatorComponent } from bmi.component.ts ; 
 
 @NgModule({
-
-
+  declarations: [
+    AppComponent, 
+    BMICalculatorComponent
+    ],
 imports: [ BrowserModule, FormsModule],
 providers: [],
 bootstrap: [AppComponent];
