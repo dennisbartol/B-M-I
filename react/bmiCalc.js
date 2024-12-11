@@ -41,6 +41,23 @@ return (
                 « Calculate BMI »
         </button>
 
+        {bmi && (
+            <div className="result-box">
+                <p className="yr-bmi-txt">
+                    <b>Your BMI is:</b>
+                </p>
+            <div className="bmi">
+                <h3>{ bmi } </h3>
+            </div>
+            <p className="result" style={{ color: healthStatusColor }}>
+            <span>{healthStatus}</span>
+            </p>
+        </div>
+    );
+};
+
+
+
                 
 
 
