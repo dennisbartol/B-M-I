@@ -24,11 +24,14 @@ const BMICalculator = () => {
             } else if (calculatedBMI >= 25 && calculatedBMI <= 29.9) {
                 setHealthStatus("You're overweight");
                 setHealthStatusColor('orange');
+            } else {
+                setHealthStatus("You're in the obesitas range");
+                setHealthStatusColor('red')
             }
-            
-            
+        } else {
+            alert('Please enter positive values, for height and weight');
     }
-}
+};
 
 
 
