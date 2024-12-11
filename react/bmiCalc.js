@@ -34,6 +34,14 @@ return (
             <h4>Weight (In kilograms)</h4>
             <input type="number" className="weight-input"
                 value={weight} onChange={(e) => setWeight(e.target.value)}
+            />
+        </div>
+
+        <button className="calculate" onClick={handleCalculate}>
+                « Calculate BMI »
+        </button>
+
+                
 
 
 
