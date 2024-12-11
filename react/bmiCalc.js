@@ -38,7 +38,7 @@ const handleCalculate = () => {
     if (height !== '' && weight !== '') {
         calculateBmi();
     }
-};
+  };
 
 
 
