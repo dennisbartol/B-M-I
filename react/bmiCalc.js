@@ -18,3 +18,26 @@ const BMICalculator = () => {
 }
 
 
+
+
+
+return (
+    <div className="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    )
