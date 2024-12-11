@@ -57,6 +57,7 @@ return (
 };
 
 
+export default BMICalculator;
 
                 
 
@@ -68,11 +69,3 @@ return (
 
 
 
-
-
-
-
-
-
-    </div>
-    )
