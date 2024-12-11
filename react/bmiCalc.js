@@ -13,7 +13,7 @@ const BMICalculator = () => {
         const weightValue = parseFloat(weight); 
 
         if (heightValue > 0 && weightValue > 0) {
-            const calculatedBMI = (weightValue / Math.pow(heightValue / 100, 2).toFixed(1);
+            const calculatedBMI = (weightValue / Math.pow(heightValue / 100, 2).toFixed(1));
             setBMI(calculatedBMI);
 
             if(calculatedBMI < 18.5 {
