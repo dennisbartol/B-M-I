@@ -16,7 +16,7 @@ const BMICalculator = () => {
             const calculatedBMI = (weightValue / Math.pow(heightValue / 100, 2).toFixed(1));
             setBMI(calculatedBMI);
 
-            if(calculatedBMI) < 18.5 {
+            if(calculatedBMI < 18.5) {
                 setHealthStatus("You're underweight");
                 setHealthStatusColor('orange');
             } else if (calculatedBMI >= 18.5 && calculatedBMI <= 24.9) {
