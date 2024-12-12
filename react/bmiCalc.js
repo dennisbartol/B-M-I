@@ -8,7 +8,7 @@ const BMICalculator = () => {
     const [healthStatus, setHealthStatus] = useState('');
     const [healthStatusColor, setHealthStatusColor] = useState('');
 
-    const calcalateBMI = () => {
+    const calculateBMI = () => {
         const heightValue = parseFloat(height); 
         const weightValue = parseFloat(weight); 
 
