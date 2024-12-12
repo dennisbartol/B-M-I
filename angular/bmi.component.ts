@@ -10,7 +10,7 @@ export class BmiCalculatorComponent {
   height: number | null = null; 
   weight: number | null = null; 
   bmi: number | null = null; 
-  result: string = ''; 
+  resultText: string = ''; 
 
 
   calculateBMI(): void{ 
