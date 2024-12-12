@@ -24,7 +24,7 @@ export class BmiCalculatorComponent {
     }
   }
 
-  getBMIResulstText(bmi: number): string { 
+  getBMIResultText(bmi: number): string { 
       if (bmi < 18.5) {
         return 'You\'re underweight'; 
       } else if (bmi >= 18.5 && < 24.9) {
