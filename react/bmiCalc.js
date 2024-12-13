@@ -36,7 +36,7 @@ const BMICalculator = () => {
 
 const handleCalculate = () => {
     if (height !== '' && weight !== '') {
-        calculateBmi();
+        calculateBMI();
     }
   };
 
