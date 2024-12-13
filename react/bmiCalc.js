@@ -74,7 +74,9 @@ return (
             <span>{healthStatus}</span>
             </p>
         </div>
-    );
+        )}
+     </div>
+  );
 };
 
 
