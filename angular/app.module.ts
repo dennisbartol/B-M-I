@@ -11,7 +11,7 @@ import { BmiCalculatorComponent } from './bmi.component.ts' ;
     ],
 imports: [ BrowserModule, FormsModule],
 providers: [],
-bootstrap: [AppComponent];
+bootstrap: [AppComponent]
 })
 
 export class AppModule { }
