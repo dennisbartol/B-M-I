@@ -7,7 +7,7 @@ import { BmiCalculatorComponent } from './bmi.component.ts' ;
 @NgModule({
   declarations: [
     AppComponent, 
-    BMICalculatorComponent
+    BmiCalculatorComponent
     ],
 imports: [ BrowserModule, FormsModule],
 providers: [],
