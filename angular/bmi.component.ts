@@ -32,7 +32,7 @@ export class BmiCalculatorComponent {
       } else if (bmi >= 25 && bmi < 29.9) {
         return 'You\'re overweight'; 
       } else {
-        return 'Obesity range';
+        return 'You\' re in the obesity range';
       }
     }
   }
