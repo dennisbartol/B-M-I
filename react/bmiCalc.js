@@ -12,7 +12,10 @@ const BMICalculator = () => {
         const heightValue = parseFloat(height); 
         const weightValue = parseFloat(weight); 
 
-        if (heightValue > 0 && weightValue > 0) {
+        if (isNaN(heightValue) || isNaN(weightValue) || heightValue <=0 > 0 && weightValue <= 0) {
+            alert('Please enter positive numbers only');
+            return; 
+        }
             const calculatedBMI = (weightValue / Math.pow(heightValue / 100, 2)).toFixed(1);
             setBMI(calculatedBMI);
 
