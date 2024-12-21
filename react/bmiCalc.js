@@ -38,8 +38,10 @@ const BMICalculator = () => {
 };
 
 const handleCalculate = () => {
-    if (height !== '' && weight !== '') {
+    if (height.trim() !== '' && weight.trim() !== '') {
         calculateBMI();
+    } else 
+        alert('Please fill in both the height and weight field.');
     }
   };
 
