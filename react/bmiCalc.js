@@ -30,7 +30,7 @@ const BMICalculator = () => {
                 setHealthStatusColor('orange');
             } else {
                 setHealthStatus("You're in the obesitas range");
-                setHealthStatusColor('red')
+                setHealthStatusColor('red');
             }
         } else {
             alert('Please enter positive values, for height and weight');
