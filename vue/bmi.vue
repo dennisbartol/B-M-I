@@ -3,12 +3,12 @@
     <h2 class="app-title">BMI Calculator</h2>  
        <div class="height box">
           <h4>Height (In centimeters)</h4>
-          <input type="number" v-model.number="height" class="height input" />
+          <input type="number" v-model.number="height" class="height-input" />
         </div>
          
         <div class="weight box">
           <h4>Weight (In kilograms)</h4>  
-          <input type="number" v-model.number = "weight" class="weight input" />
+          <input type="number" v-model.number = "weight" class="weight-input" />
         </div>
 
          <button @click="calculateBMI" class="calculate">« Calculate BMI »</button>
