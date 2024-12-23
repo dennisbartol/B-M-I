@@ -39,7 +39,7 @@
     },
     methods: {
       calculateBMI() {
-      if (this.height && this.weight) {
+        if (this.height > 0 && this.weight > 0) {
         const heightInMeters = this.height / 100; 
         this.bmi = (this.weight / (heightInMeters ** 2)).toFixed(2); 
         this.resultText = this.getBMIresult(this.bmi); 
