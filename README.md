@@ -1,4 +1,4 @@
-# Calculate your Body Mass Index .. 
+### Calculate your Body Mass Index
 
 .. And live healthier !</br>
 
