@@ -1,6 +1,6 @@
-### Calculate your Body Mass Index
+### Calculate your Body Mass Index... 
 
-.. And live healthier !</br>
+...And live healthier !</br>
 
 Notes: </br>
 <ol>
