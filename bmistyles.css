@@ -115,8 +115,11 @@ button {
 .container .result-box .yr-bmi-txt {
   text-align:center;
   margin-top:17px; 
-  background-color: ghostwhite; 
-  border-radius: 6px;  
+}
+
+.bmi {
+   background-color: ghostwhite; 
+   border-radius: 6px;  
 }
 
 @media screen and (max-width: 500px) {
