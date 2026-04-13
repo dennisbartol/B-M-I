@@ -110,6 +110,7 @@ button {
    width: 120px; 
    margin-top: 5px; 
    background-color: ghostwhite; 
+   border-radius: 6px;  
    
 }
 
