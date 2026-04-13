@@ -121,7 +121,8 @@ button {
    background-color: ghostwhite; 
    border-radius: 6px;  
    width: 80%; 
-   padding: 6px; 
+  margin: 6px; 
+   /* padding: 6px; */
 }
 
 @media screen and (max-width: 500px) {
