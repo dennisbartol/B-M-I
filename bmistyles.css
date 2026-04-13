@@ -109,14 +109,14 @@ button {
    margin: auto; 
    width: 120px; 
    margin-top: 5px; 
-   background-color: ghostwhite; 
-   border-radius: 6px;  
    
 }
 
 .container .result-box .yr-bmi-txt {
   text-align:center;
   margin-top:17px; 
+  background-color: ghostwhite; 
+  border-radius: 6px;  
 }
 
 @media screen and (max-width: 500px) {
