@@ -40,9 +40,12 @@ body {
   all: unset;
   width: 200px; 
   height: 25px;
+
+  /* Error error error 
   position: absolute; 
   left: 50%;
   transform: translate(-50%,-50%);
+  */
   text-align: center;
 
   background-color: ghostwhite;
