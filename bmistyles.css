@@ -139,7 +139,11 @@ button {
 }
 
 @media screen and (max-width: 500px) {
+    body { 
+      height: 100dvh; 
+    }
   .container { 
     width: 96%;
   }
 }
+
