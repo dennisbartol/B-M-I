@@ -134,7 +134,7 @@ button {
    border-radius: 6px;  
    width: 80%; 
    margin: 10px auto; 
-   padding: 6px; 
+   /* padding: 6px; */
    text-align: center; 
 }
 
