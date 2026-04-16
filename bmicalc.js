@@ -27,7 +27,7 @@ calculate.addEventListener('click', () => {
     }
 
     else if(bmi >= 18.5 && bmi <= 24.9) {
-      healthStatus.innerHTML = 'Congratulations ! You\'re on a<br> regular and healthy weight'; 
+      healthStatus.innerHTML = 'You\'re on a<br> regular and healthy weight'; 
       healthStatus.style.color = "Green";
     }
 
