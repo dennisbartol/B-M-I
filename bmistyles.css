@@ -135,7 +135,7 @@ button {
 .result span {
    background-color: ghostwhite; 
    border-radius: 6px;  
-   width: 80%; 
+   width: 100%; 
    Heught: 2.5rem;
    margin: 10px auto; 
    /* padding: 6px; */
