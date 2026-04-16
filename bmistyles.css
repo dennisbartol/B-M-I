@@ -133,7 +133,7 @@ button {
   margin-top:17px; 
 }
 
-.result span {
+.result {
    background-color: ghostwhite; 
    border-radius: 6px;  
    width: 100%; 
