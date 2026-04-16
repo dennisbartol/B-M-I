@@ -139,7 +139,7 @@ button {
    width: 100%; 
    Heught: 2.5rem;
    margin: 10px auto; 
-   /* padding: 6px; */
+     padding: 6px;
    text-align: center; 
 }
 
