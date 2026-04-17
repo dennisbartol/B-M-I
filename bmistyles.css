@@ -115,6 +115,8 @@ button {
   height: 20px;
 }  
 
+/* Further tweak flexbox button shrink */
+
 
 .container .result-box .bmi {
    padding-left: 10px; 
