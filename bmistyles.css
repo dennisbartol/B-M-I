@@ -112,7 +112,7 @@ button {
   flex-shrink: 0;
   /* width: 100%; */
   max-width: 200px;
-  height: 20px;
+  height: 40px;
 }  
 
 /* Further tweak flexbox button shrink */
