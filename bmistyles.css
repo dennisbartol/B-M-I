@@ -23,6 +23,14 @@ body {
    align-items: center; 
 }
 
+.height { 
+   border-padding: 1em; 
+}
+
+.weight {
+  border-padding: 1em;
+}
+
 .container {
   /* Error error error 
   position: absolute; 
