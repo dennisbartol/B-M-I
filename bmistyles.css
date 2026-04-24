@@ -101,7 +101,7 @@ input[type=number] {
   border-radius: 6px;
   /* margin-top: 40px; */
   transition: box-shadow 0.4s ease-in-out;
-  outline: 1px dashed red; 
+  /*  outline: 1px dashed red;  Flexbox debugging */
   
 }
 
