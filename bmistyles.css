@@ -26,11 +26,12 @@ body {
 }
 
 .height { 
-   border-padding: 1em; 
+   padding-bottom: 1em; 
+
 }
 
 .weight {
-  border-padding: 1em;
+  padding-bottom: 1em;
 }
 
 .container {
