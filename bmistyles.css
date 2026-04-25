@@ -141,7 +141,7 @@ button {
    display: flex; 
    align-items: center;
    justify-content: center;
-flex-direction: column;
+   flex-direction: column;
    margin: auto; 
    width: 120px; 
    margin-top: 5px; 
@@ -159,7 +159,7 @@ flex-direction: column;
    width: 100%; 
    Heught: 2.5rem;
    margin: 10px auto; 
-     padding: 6px;
+   padding: 6px;
    text-align: center; 
 }
 
