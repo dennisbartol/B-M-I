@@ -45,3 +45,5 @@ calculate.addEventListener('click', () => {
     result.style.display = 'block';
 
   }
+
+// Next up: transparent, empty null state
