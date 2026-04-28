@@ -41,11 +41,10 @@ calculate.addEventListener('click', () => {
       healthStatus.style.color = 'red';
     }
 
-    resultText.textContent = `${bmi}`;
+    bmiText.innerHTML = bmi; 
     resultBox.classList.add("active"); 
 
-    
-    // bmiText.innerHTML = bmi; 
+    // 
     // result.style.display = 'block';
 
   }
