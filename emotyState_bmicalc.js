@@ -2,7 +2,7 @@ let height = document.querySelector('.container .height-input');
 let weight = document.querySelector('.container .weight-input');
 let calculate = document.querySelector('.container .calculate');
 let bmiText = document.querySelector('.container .result-box .bmi h3');
-let result = document.querySelector('.container .result-box');
+let resultBox = document.querySelector('.container .result-box');
 let healthStatus = document.querySelector('.container .result-box .result');
 
 calculate.addEventListener('click', () => {
