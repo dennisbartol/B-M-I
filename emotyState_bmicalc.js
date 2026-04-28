@@ -42,7 +42,7 @@ calculate.addEventListener('click', () => {
     }
 
     resultText.textContent = `${bmi}`;
-    // resultBox.classList.add("active"); 
+    resultBox.classList.add("active"); 
 
     
     // bmiText.innerHTML = bmi; 
