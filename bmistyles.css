@@ -163,6 +163,15 @@ button {
    text-align: center; 
 }
 
+.result-box {
+  opacity: 0.6; 
+  transition: 0.5s ease;  
+}
+
+.result-box.active{ 
+  opacity: 1; 
+}
+
 @media screen and (max-width: 500px) {
     body { 
       height: 100dvh; 
