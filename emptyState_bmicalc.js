@@ -49,5 +49,5 @@ calculate.addEventListener('click', () => {
 
   }
 
-// Next up: transparent, empty null state
+// In progress: transparent, empty null state
 // .active 
