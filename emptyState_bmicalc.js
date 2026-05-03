@@ -51,3 +51,5 @@ calculate.addEventListener('click', () => {
 
 // In progress: transparent, empty null state
 // .active 
+
+// To do: add ease-out. 
