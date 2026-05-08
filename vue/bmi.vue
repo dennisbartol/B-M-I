@@ -67,27 +67,52 @@
 
 
 <style>
+
+
+
+/* When finished update R, A and Vue */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');   
 
 body {
   margin: 0; 
   padding: 0; 
-  min-height: 100vh; 
+  min-height: 100dvh; 
   display: flex; 
   align-items: center; 
   justify-content: center; 
   font-family: "Noto Sans", sans-serif;
   color: ghostwhite;
+
   background-image: linear-gradient(to bottom right, #ff6869, #ff69de);
 }
 
 
+.box { 
+   /* outline: 2px dashed black; Test ivm calc button shrinking */ 
+   display: flex; 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: space-between; 
+   gap: 14px; 
+}
+
+.height { 
+   padding-bottom: 1em; 
+
+}
+
+.weight {
+  padding-bottom: 1em;
+}
+
 .container {
+  /* Error error error 
   position: absolute; 
   top: 50%; 
   left: 50%; 
   transform: translate(-50%,-50%);
-
+  */
   display: flex; 
   flex-direction: column;
   align-items: center; 
@@ -99,6 +124,8 @@ body {
   width: 474px;  
   /* max-width: 600px; */
   height: 500px;
+  padding-bottom: 1rem; 
+  /* height: auto; */
 }
 
 
@@ -106,9 +133,12 @@ body {
   all: unset;
   width: 200px; 
   height: 25px;
+
+  /* Error error error 
   position: absolute; 
   left: 50%;
   transform: translate(-50%,-50%);
+  */
   text-align: center;
 
   background-color: ghostwhite;
@@ -119,6 +149,8 @@ body {
   border-color: #010101;
   border-width: 1px; 
   transition: box-shadow 0.4s ease-in-out;
+ 
+  /* margin: 10px 0; */
 }
 
 .container .calculate:hover {
@@ -150,8 +182,10 @@ input[type=number] {
   background-color: #010101;
   /* background: #93309e; */
   border-radius: 6px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   transition: box-shadow 0.4s ease-in-out;
+  /*  outline: 1px dashed red;  Flexbox debugging */
+  
 }
 
 .container .calculate:hover {
@@ -161,10 +195,15 @@ input[type=number] {
 
 button { 
   margin-top: 4px; 
-  padding: 40px;  /* Vert. positioning */
+  padding: 4px; 
   outline: none; 
-  
-}
+  flex-shrink: 0;
+  /* width: 100%; */
+  max-width: 200px;
+  height: 40px;
+}  
+
+/* Further tweak flexbox button shrink */
 
 
 .container .result-box .bmi {
@@ -174,8 +213,9 @@ button {
    display: flex; 
    align-items: center;
    justify-content: center;
+   flex-direction: column;
    margin: auto; 
-   width: 100%; /* 120px; */
+   width: 120px; 
    margin-top: 5px; 
    
 }
@@ -185,10 +225,36 @@ button {
   margin-top:17px; 
 }
 
+.result {
+   background-color: ghostwhite; 
+   border-radius: 6px;  
+   width: 100%; 
+   Heught: 2.5rem;
+   margin: 10px auto; 
+   padding: 6px;
+   text-align: center; 
+}
+
+.result-box {
+  opacity: 0; 
+  transition: 0.5s ease;  
+}
+
+.result-box.active{ 
+  opacity: 1; 
+}
+
 @media screen and (max-width: 500px) {
+    body { 
+      height: 100dvh; 
+    }
+  
   .container { 
-    width: 96%;
+    max-width: 94%;
+    height: 500px; 
   }
 }
+
+
 
 </style>
